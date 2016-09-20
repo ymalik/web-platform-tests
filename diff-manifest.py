@@ -4,7 +4,7 @@ import json
 import subprocess
 import os
 
-def call(**args):
+def call(*args):
     return subprocess.check_call(args)
 
 
